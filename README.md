@@ -30,7 +30,7 @@ This repository contains the development progress of **Mentis Mirror**, a magica
 ---
 
 ## 📂 Branching Info  
-- **`frontend-dev` branch** → contains Day 1 frontend work.  
+- **`frontend-ui` branch** → contains Day 1 frontend work.  
 - Will merge into **`main` branch** after backend integration is stable.  
 
 ---
