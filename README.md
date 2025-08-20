@@ -14,24 +14,36 @@ This repository contains the development progress of **Mentis Mirror**, a magica
 
 ---
 
+### Day 2 (20th Aug 2025) — Emotion Detection Integration  
+✅ Created new branch **`emotion`** for Day 2 work.  
+✅ Integrated **DeepFace emotion detection pipeline**.  
+✅ Added **image upload & webcam capture option** for emotion recognition.  
+✅ Displayed **real-time detected emotion** in frontend UI.  
+✅ Prepared framework for **logging detected emotions + sensor data** to database.  
+✅ Synced frontend placeholders with **basic emotion output** (ready for full integration).  
+
+---
+
 ## 🔮 Features in Progress  
-- Emotion Detection (DeepFace Integration)  
-- IoT Sensor Simulation (ESP32 in Wokwi)  
-- MySQL Database Logging  
-- Interactive Viewer Tab  
+- IoT Sensor Simulation (ESP32 in Wokwi).  
+- MySQL Database Logging + fallback to local storage.  
+- Interactive Viewer Tab for logs.  
+- Magical sound effects + animations for immersive UX.  
 
 ---
 
 ## 🚀 Next Steps  
-- Connect frontend with database logging module.  
-- Add sound effects + animations for magical feel.  
-- Begin integrating DeepFace for real-time emotion tracking.  
+- Merge **`emotion` branch** into **`main`** after testing.  
+- Connect emotion detection with **sensor data + logging button**.  
+- Begin Wokwi **IoT sensor simulation** setup.  
+- Add final Harry Potter–themed polish (sounds, animations, quotes).  
 
 ---
 
 ## 📂 Branching Info  
 - **`frontend-ui` branch** → contains Day 1 frontend work.  
-- Merge into **`main` branch** after merging the pull request from **`frontwnd-ui` branch**.  
+- **`emotion` branch** → contains Day 2 emotion detection work.  
+- Merge branches step by step into **`main`** after review.  
 
 ---
 ✨ _“Happiness can be found even in the darkest of times, if one only remembers to turn on the light.”_ — Albus Dumbledore
