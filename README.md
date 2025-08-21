@@ -24,25 +24,39 @@ This repository contains the development progress of **Mentis Mirror**, a magica
 
 ---
 
+### Day 3 (21st Aug 2025) — Database Integration  
+✅ Created new branch **`database`** for backend work.  
+✅ Implemented **`db_utils.py`** for MySQL connection + fallback to text file storage.  
+✅ Designed **database schema (`mirror_logs` table)** for emotion + sensor data logging.  
+✅ Integrated **logging button** in frontend to store detected values.  
+✅ Added **basic error handling** for DB connection failures.  
+✅ Verified first successful emotion + sensor log entry in MySQL.    
+✅ Built new **Viewer Tab** in Streamlit to display saved logs.  
+✅ Enabled **data fetch from MySQL** (or text file if DB unavailable).  
+✅ Added **interactive table** to view logged emotions + sensor values.  
+✅ Synced Viewer tab with **real-time updates after logging**.  
+✅ Tested end-to-end pipeline → **Emotion detection + sensor simulation → Logging → Viewer tab**.  
+✅ Codebase cleanup and structured repo for clarity.  
+
+---
+
 ## 🔮 Features in Progress  
 - IoT Sensor Simulation (ESP32 in Wokwi).  
-- MySQL Database Logging + fallback to local storage.  
-- Interactive Viewer Tab for logs.  
 - Magical sound effects + animations for immersive UX.  
+- Final Harry Potter polish (quotes, animations, transitions).  
 
 ---
 
 ## 🚀 Next Steps  
-- Merge **`emotion` branch** into **`main`** after testing.  
-- Connect emotion detection with **sensor data + logging button**.  
 - Begin Wokwi **IoT sensor simulation** setup.  
-- Add final Harry Potter–themed polish (sounds, animations, quotes).  
+- Add **sound + magical animations** to enhance experience.  
 
 ---
 
 ## 📂 Branching Info  
 - **`frontend-ui` branch** → contains Day 1 frontend work.  
 - **`emotion` branch** → contains Day 2 emotion detection work.  
+- **`database` branch** → contains Day 3 database + viewer work.  
 - Merge branches step by step into **`main`** after review.  
 
 ---
