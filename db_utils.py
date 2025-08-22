@@ -31,7 +31,7 @@ def create_table_if_not_exists():
         """)
         db.commit()
     except Exception as e:
-        print("Error creating table:", e)
+        print("❌ Error creating table:", e)
     finally:
         cursor.close()
         db.close()
@@ -55,7 +55,6 @@ def insert_data(emotion, confidence, temp, sound_level, tvoc, co2):
     finally:
         cursor.close()
         db.close()
-
 
 # ✅ Fetch logs for viewer tab
 def fetch_logs():
