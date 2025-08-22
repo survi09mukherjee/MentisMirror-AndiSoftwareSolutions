@@ -56,7 +56,7 @@ This repository contains the development progress of **Mentis Mirror**, a magica
 ## 📂 Branching Info  
 - **`frontend-ui` branch** → contains Day 1 frontend work.  
 - **`emotion` branch** → contains Day 2 emotion detection work.  
-- **`database` branch** → contains Day 3 database + viewer work.  
+- **`db` branch** → contains Day 3 database + viewer work.  
 - Merge branches step by step into **`main`** after review.  
 
 ---
