@@ -40,15 +40,25 @@ This repository contains the development progress of **Mentis Mirror**, a magica
 
 ---
 
-## 🔮 Features in Progress  
-- IoT Sensor Simulation (ESP32 in Wokwi).  
+### Day 4 (22nd Aug 2025) — IoT Simulation + Stream Logging  
+✅ Created new branch **`iot-simulation`** for IoT work.  
+✅ Added **`main.c`** (ESP32 code) and **`wokwi-custom.json`** (simulation config) for **Wokwi-based sensor simulation**.  
+✅ Implemented **sensor readout for temperature, humidity, sound, light, gas, and custom sensors**.  
+✅ Connected ESP32 simulated outputs to **Streamlit frontend** using new **`streamlog.py`** module.  
+✅ Integrated **real-time sensor streaming with emotion logs**.  
+✅ Verified successful logging of **sensor + emotion data together** into database and text logs.  
+✅ Synced simulation outputs with **frontend magical UI** for immersive interaction.  
+
+---
+
+## 🔮 Features in Progress    
 - Magical sound effects + animations for immersive UX.  
 - Final Harry Potter polish (quotes, animations, transitions).  
 
 ---
 
 ## 🚀 Next Steps  
-- Begin Wokwi **IoT sensor simulation** setup.  
+- Enhance **real-time graphing + charts** in frontend from simulation.   
 - Add **sound + magical animations** to enhance experience.  
 
 ---
@@ -57,7 +67,9 @@ This repository contains the development progress of **Mentis Mirror**, a magica
 - **`frontend-ui` branch** → contains Day 1 frontend work.  
 - **`emotion` branch** → contains Day 2 emotion detection work.  
 - **`db` branch** → contains Day 3 database + viewer work.  
+- **`iot-simulation` branch** → contains Day 4 IoT simulation + streaming integration work.  
 - Merge branches step by step into **`main`** after review.  
 
 ---
-✨ _“Happiness can be found even in the darkest of times, if one only remembers to turn on the light.”_ — Albus Dumbledore
+
+✨ _“Happiness can be found even in the darkest of times, if one only remembers to turn on the light.”_ — Albus Dumbledore  
