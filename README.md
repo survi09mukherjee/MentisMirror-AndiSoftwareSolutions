@@ -51,11 +51,11 @@ This repository contains the development progress of **Mentis Mirror**, a magica
 
 ---
 ### Day 5 (23nd Aug 2025) — IoT Simulation + Stream Logging 
-
 ✅ Added **`shap_explainer.py`** → Script to generate SHAP explanations for model predictions.  
 ✅ Added **`streamshap.py`** → Streamlit app for interactive SHAP visualization and feature importance.  
 ✅ Updated documentation to include Day 5 updates.  
 🚀 Focus today was on **explainable AI integration** with SHAP for interpretability.
+
 ---
 
 ## 🔮 Features in Progress    
