@@ -50,6 +50,13 @@ This repository contains the development progress of **Mentis Mirror**, a magica
 ✅ Synced simulation outputs with **frontend magical UI** for immersive interaction.  
 
 ---
+### Day 5 (23nd Aug 2025) — IoT Simulation + Stream Logging 
+
+✅ Added **`shap_explainer.py`** → Script to generate SHAP explanations for model predictions.  
+✅ Added **`streamshap.py`** → Streamlit app for interactive SHAP visualization and feature importance.  
+✅ Updated documentation to include Day 5 updates.  
+🚀 Focus today was on **explainable AI integration** with SHAP for interpretability.
+---
 
 ## 🔮 Features in Progress    
 - Magical sound effects + animations for immersive UX.  
@@ -57,8 +64,7 @@ This repository contains the development progress of **Mentis Mirror**, a magica
 
 ---
 
-## 🚀 Next Steps  
-- Enhance **real-time graphing + charts** in frontend from simulation.   
+## 🚀 Next Steps     
 - Add **sound + magical animations** to enhance experience.  
 
 ---
@@ -67,7 +73,8 @@ This repository contains the development progress of **Mentis Mirror**, a magica
 - **`frontend-ui` branch** → contains Day 1 frontend work.  
 - **`emotion` branch** → contains Day 2 emotion detection work.  
 - **`db` branch** → contains Day 3 database + viewer work.  
-- **`iot-simulation` branch** → contains Day 4 IoT simulation + streaming integration work.  
+- **`iot-simulation` branch** → contains Day 4 IoT simulation + streaming integration work.
+- **`explainability` branch** → contains Day 5 SHAP explainer (`shap_explainer.py`) and Streamlit SHAP visualization (`streamshap.py`) work.
 - Merge branches step by step into **`main`** after review.  
 
 ---
