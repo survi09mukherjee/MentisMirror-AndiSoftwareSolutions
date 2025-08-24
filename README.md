@@ -57,15 +57,23 @@ This repository contains the development progress of **Mentis Mirror**, a magica
 🚀 Focus today was on **explainable AI integration** with SHAP for interpretability.
 
 ---
+### Day 6 (24th Aug 2025) — Voice Tone Analysis Integration  
+✅ Added **`train_voice_tone_model.py`** → Script to train ML model for detecting and classifying voice tones.  
+✅ Added **`voice_tone_app.py`** → Streamlit app for real-time voice tone analysis and user interaction.  
+✅ Added **`voice_tone_model.pkl`** → Pre-trained model file for quick inference without retraining.  
+✅ Updated documentation to reflect Day 6 work.  
+🚀 Focus today was on **speech emotion recognition via voice tone analysis** for extending multimodal emotion detection.  
+
+---
 
 ## 🔮 Features in Progress    
-- Magical sound effects + animations for immersive UX.  
+- Magical animations for immersive UX.  
 - Final Harry Potter polish (quotes, animations, transitions).  
 
 ---
 
 ## 🚀 Next Steps     
-- Add **sound + magical animations** to enhance experience.  
+- Add **magical animations** to enhance experience.  
 
 ---
 
@@ -75,6 +83,7 @@ This repository contains the development progress of **Mentis Mirror**, a magica
 - **`db` branch** → contains Day 3 database + viewer work.  
 - **`iot-simulation` branch** → contains Day 4 IoT simulation + streaming integration work.
 - **`explainability` branch** → contains Day 5 SHAP explainer (`shap_explainer.py`) and Streamlit SHAP visualization (`streamshap.py`) work.
+- **`voice-tone` branch** → contains Day 6 voice tone analysis work with training script (`train_voice_tone_model.py`), Streamlit app (`voice_tone_app.py`), and trained model file (`voice_tone_model.pkl`).
 - Merge branches step by step into **`main`** after review.  
 
 ---
